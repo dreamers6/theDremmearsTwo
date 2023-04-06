@@ -1,0 +1,138 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#c31331;
+    --background-color: #1a1d25;
+}
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* google font end */
+.anass-part{
+    background-color: var(--background-color);
+    font-family: 'Cairo' , 'Roboto' , sans-serif;
+    margin: 0;
+}
+.brands-section{
+    padding: 75px 0;
+}
+
+.why-us-section .why-us-title{
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.why-us-section .why-us-row .boxes .box h1{
+    font-size: 24px;
+    text-align: left;
+    padding-top: 100px;
+    color: white;
+}
+.why-us-section .why-us-row .box{
+    background-color: var(--background-color);
+    border: 1px solid #2b2e38;
+    border-radius: 8px;
+    padding: 25px;
+}
+.why-us-section .box:hover{
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+.why-us-section .box:hover .icon-2{
+    border: 7px solid #FFF;
+}
+.why-us-section .boxes{
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+.why-us-section .box .icon{
+    color: #FFF;
+    transform: scale(2.5);
+}
+.why-us-section .box .icon svg{
+    vertical-align: middle;
+}
+
+.third-section-title{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 135%;
+    color: #ffffff;
+}
+.third-section .hr-line{
+    width: 25%;
+    height: 3px;
+    background-color: var(--primary-color);
+    max-width: 450px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.third-section .third-section-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 185%;
+    color: #525560;
+}
+.why-us-section .box .icon-2{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 7px solid var(--primary-color);
+    color: #FFF;
+}
+.third-section .sign-up-btn{
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 17px 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+}
+.third-section .buttons{
+    margin-top: 45px;
+    padding-bottom: 50px;
+}
+.third-section .buttons .btn-block{
+    color:#FFF;
+    font-weight: bold;
+}
+.brands-section .brand-logo{
+    max-width: 100%;
+    margin: 20px 0;
+}
+@media (max-width : 576px){
+    .third-section .m-cards-png{
+        height: 100%;
+        width: 100%;
+    }
+    .third-section .buttons{
+        text-align: center;
+    }
+    .third-section .buttons .sign-up-btn{
+        width: 100%;
+
+    }
+    .third-section .buttons .btn-block{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767.98px){
+.third-section .third-section-title {
+    font-size: 24px;
+}
+}
+@media (min-width:576px) and (max-width: 767.98px){
+    .third-section .buttons-row{
+        flex-wrap: nowrap;
+    }
+.third-section .first-btn-col{
+    width: 30%;
+}
+.third-section .second-btn-col{
+    width: 45%;
+}
+}

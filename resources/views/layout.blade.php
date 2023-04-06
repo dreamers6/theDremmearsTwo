@@ -14,15 +14,14 @@
         <link rel="stylesheet" href="css/anass.css">
         <link rel="stylesheet" href="css/hamid.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        {{-- google font --}}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        {{-- end --}}
+        {{-- aos anomation css --}}
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        {{-- aos animation end --}}
     </head>
     <body>
-
-    <!-- <div class="relative flex justify-center dark:bg-gray-900 text-gray-500 py-4">
-        <a href="{{ Route('ayoub') }}">Ayoub</a>
-        <a href="{{ Route('anass') }}">Anass</a>
-        <a href="{{ Route('hamid') }}">Hamid</a>
-    </div> -->
 
     @yield("ayoub")
     @yield("anass")
