@@ -15,10 +15,10 @@ use App\Http\Controllers\dreamersController ;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/ayoub' , [ dreamersController::class , "ayoub" ])->name("ayoub") ;
+Route::get('/' , [ dreamersController::class , "ayoub" ])->name("ayoub") ;
 Route::get('/anass' , [ dreamersController::class , "anass" ])->name("anass") ;
 Route::get('/hamid' , [ dreamersController::class , "hamid" ])->name("hamid") ;
