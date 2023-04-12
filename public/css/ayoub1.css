@@ -1,0 +1,204 @@
+.reg {
+    height: 98vh;
+}
+
+@media (min-width: 1200px) {
+    .register {
+        padding: 10px 0 60px 0;
+    }
+}
+
+.register .register-left {
+    background-image: url(/left_signup_background.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register .login {
+    background-image: url(/login-bg.svg) !important;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width : 1200px) {
+    .register .row > .col-md-12 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .register .login {
+        border-radius: 10px ;
+    }
+
+    .register .register-left {
+        border-radius: 10px;
+    }
+}
+
+.register .register-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media ( max-width: 1200px ) {
+    .register .register-left {
+        margin-top: 44px;
+    }
+}
+
+.register .in .img {
+    margin-top: -15%;
+}
+
+.register h1 ,
+.register p {
+    color: #fff;
+}
+
+.register .right {
+    padding: 50px 0 0;
+}
+
+.register .right h1 {
+    margin-bottom: 60px;
+}
+
+@media ( min-width: 1200px ) {
+    .register .right form {
+        margin-left: 50px;
+        /* width: 94%; */
+    }
+}
+
+@media ( max-width: 1200px ) {
+    .register .in {
+        padding: 100px 0;
+    }
+}
+
+.register .login-form {
+    margin-left: 0 !important;
+}
+
+@media (min-width: 1200px) {
+    .register .login-form {
+        width: 94%;
+    }
+}
+
+.register .text-left {
+    text-align: left;
+}
+
+.register form label {
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: 6px;
+}
+
+.register form input:not(input[type=checkbox]) {
+    background: #23252e;
+    border: none;
+    line-height: 100% !important;
+    padding: 23px 14px;
+    width: 100%;
+    color: #fff;
+    height: auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+input[type=checkbox]:checked ,
+input[type=checkbox]:visited ,
+input[type=checkbox]:active ,
+input[type=checkbox]:focus {
+    background-color: #c31331;
+    border: none;
+    box-shadow: none;
+}
+
+.register .right .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register .right .flex .firstName ,
+.register .right .flex .lastName {
+    width: 48%;
+}
+
+.register input:not(input[type="checkbox"]) {
+    margin-bottom: 20px;
+    padding-left: 80px !important;
+}
+
+.register .btn {
+    background-color: #c31331;
+    margin-top: 10px;
+    padding: 18px 0;
+}
+
+.forget {
+    color: #c31331;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ;
+}
+
+.forget:hover {
+    color: #ef2245;
+}
+
+.register .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar
+
+.color {
+    color: #fff ;
+}
+
+.register .col {
+    position: relative;
+}
+
+.register .col i {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #fff;
+    transform: translateY(-50%);
+    font-size: 23px;
+    background-color: #c01330;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.reset {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 10px);
+}
+
+.register .card-header {
+    font-size:24px ;
+    color: #fff ;
+    border-bottom: none;
+}
+
+.register .card {
+    background-color: transparent;
+    border: none;
+}

@@ -11,16 +11,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="{{ route('services') }}">Services</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Sign in</a>
+            <a class="nav-link" href="/login">Sign in</a>
             </li>
             <li class="nav-item">
-            <a href="#" class="nav-link sign">Sign Up</a>
+            <a class="nav-link" href="/api">Api</a>
+            </li>
+            <li class="nav-item">
+            <a href="/register" class="nav-link sign">Sign Up</a>
             </li>
         </ul>
         </div>
@@ -57,9 +60,9 @@
 @endsection
 
 @section("anass")
-   {{-- Anass's Home page Sections --}}
-   <div class="anass-part">
-   {{-- first-section --}}
+    {{-- Anass's Home page Sections --}}
+    <div class="anass-part">
+    {{-- first-section --}}
     <div class="brands-section">
         <div class="container brands-container">
             <div class="row brands-row d-flex justify-content-between">

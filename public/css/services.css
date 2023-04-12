@@ -1,0 +1,147 @@
+
+
+body{
+    color: #ffffff;
+}
+
+
+.search-filter{
+    position: relative;
+    min-height: 63px;
+    align-items: center;
+
+}
+
+.search-filter input{
+    background-color: #23252e;
+    outline: none !important;
+    border: none !important;
+    padding: 19px 14px;
+    padding-left: 66px !important;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff !important;
+}
+
+.search-filter input:focus{
+    background-color: #23252e;
+    border:none;
+    outline:none;
+    box-shadow: none !important;
+}
+
+.search-filter input::placeholder{
+    color: #3b3e4b;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.filter .dropdown-menu{
+    width: 100%;
+}
+
+.srch{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 1.4rem;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+.header div{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color:#2b2e38;
+    margin-top: 10px;
+}
+
+.items-product .title{
+    width: 100%;
+    background-color: #c31331;
+    border-radius: 8px;
+    padding: 10px 1px 10px 30px ;
+}
+
+.items-product .title h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-product{
+    border: 1px solid #2b2e38;
+    margin: 2px;
+    border-radius: 8px;
+    background-color: #1e2028;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card-product .id h2{
+    background-color: #c31331;
+    width: 50px;
+    height: 44px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.card-product .name{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin-bottom: 5px !important;
+}
+
+
+
+.btn2{
+    width: 40%;
+    color: #ffffff;
+    background-color: #c31331;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+@media (max-width:991px) {
+    .action{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .max p,.min p{
+        text-align: center !important;
+    }
+
+    .card-product .content{
+        margin-top: 10px !important;
+    }
+
+    .card-product .content .val{
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+
+    .items-product .title{
+        margin-bottom: 0 !important;
+    }
+
+    .items-product .body{
+        margin-top: 4px !important;
+    }
+}
+
+.small {
+    font-size: 20px ;
+}

@@ -1,0 +1,78 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#c31331;
+    --background-color: #1a1d25;
+    --font: 'Cairo' , sans-serif;
+}
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* google font end */
+.first-api-box .first-api-text{
+    color: #525560;
+    font-family: var(--font);
+    font-weight: 600;
+    margin-top: 10px;
+} 
+.first-api-box .first-api-title{
+    font-family: var(--font);
+    font-size: 37px;
+    font-weight: 700;
+} 
+.first-api-box .first-api-body{
+    padding: 50px 0 50px 74px;
+    position: relative;
+}
+.custom-table{
+    border: 1px solid #525560;
+}
+.second-api-box{
+    border: 1px solid #2b2e38;
+    border-radius: 8px;
+    padding: 25px;
+}
+.second-api-box .table{
+    border: 1px solid #2b2e38;
+
+}
+.second-api-box .table .border-left{
+    border-left: 1px solid #2b2e38;
+}
+.second-api-box .response{
+    color: #c31331 !important;
+    background: rgba(195, 19, 49, 0.15) !important;
+    border-radius: 5px;
+    padding: 10px;
+}
+.api-select {
+    color: #fff;
+    background-color: #2b2e38;
+    border-color: #2b2e38;
+}
+
+.api-select option {
+    color: #fff;
+    background-color: #2b2e38;
+    
+}
+@media (max-width:767.98px){
+    .first-api-box .first-api-body{
+        padding: 25px;
+    }
+    .first-api-box .first-api-title{
+        font-size: 24px;
+    }
+    .first-api-box .first-api-body .first-api-text{
+        font-size: 14px;
+    }
+}
+@media (min-width:768px){
+    .first-api-box {
+        border: 1px solid #2b2e38;   
+    }
+    .second-api-box .my-btn{
+        width: 30%
+    }
+}
